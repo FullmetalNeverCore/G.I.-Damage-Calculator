@@ -8,4 +8,4 @@ crate3,cdmg3 = str(crate1) + "." + str(crate2), str(cdmg1) + "." + str(cdmg2)
 
 
 dmgcalc = float(atk)*(1+float(crate3)*float(cdmg3))
-print(int(dmgcalc))
+print("Ur avarage: "),print(int(dmgcalc))
